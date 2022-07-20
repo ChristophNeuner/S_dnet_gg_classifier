@@ -1,0 +1,60 @@
+{
+    "name": "dnet_gg_classifier",
+    "description": "DNET vs Ganglioglioma classifier",
+    "schema-version": "cytomine-0.1",
+    "command-line": "python app.py --cytomine_host [CYTOMINE_HOST] --cytomine_public_key [CYTOMINE_PUBLIC_KEY] --cytomine_private_key [CYTOMINE_PRIVATE_KEY] --cytomine_id_project [CYTOMINE_ID_PROJECT] --cytomine_id_software [CYTOMINE_ID_SOFTWARE],
+    
+    "container-image": {
+        "type": "christophneuner/s_dnet_gg_classifier",
+        "image": "singularity",
+    }
+    
+    "inputs": [
+         {
+            "id": "cytomine_host",
+            "name": "Cytomine host",
+            "set-by-server": true,
+            "optional": false,
+            "type": "String",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id"
+        },
+        {
+            "id": "cytomine_public_key",
+            "name": "Cytomine public key",
+            "set-by-server": true,
+            "optional": false,
+            "type": "String",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id"
+        },
+        {
+            "id": "cytomine_private_key",
+            "name": "Cytomine private key",
+            "set-by-server": true,
+            "optional": false,
+            "type": "String",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id"
+        },
+        {
+            "id": "cytomine_id_project",
+            "name": "Cytomine project ID",
+            "set-by-server": true,
+            "optional": false,
+            "type": "Number",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id"
+        },
+        {
+            "id": "cytomine_id_software",
+            "name": "Cytomine software ID",
+            "set-by-server": true,
+            "optional": false,
+            "type": "Number",
+            "value-key": "[@ID]",
+            "command-line-flag": "--@id"
+        }
+    ]
+}
+

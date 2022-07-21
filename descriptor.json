@@ -6,9 +6,8 @@
     
     "container-image": {
         "type": "christophneuner/s_dnet_gg_classifier",
-        "image": "singularity",
-    }
-    
+        "image": "singularity"
+    },
     "inputs": [
          {
             "id": "cytomine_host",

@@ -76,6 +76,6 @@ RUN git clone https://github.com/FAU-DLM/wsi_processing_pipeline.git
 
 RUN mkdir -p /app
 ADD app.py /app/app.py
-ADD dnet_vs_gg_resnet-1-resnet50.pkl /app/dnet_vs_gg_resnet-1-resnet50_untrained.pkl
+ADD dnet_vs_gg_resnet-1-resnet50_untrained.pkl /app/dnet_vs_gg_resnet-1-resnet50_untrained.pkl
 
 ENTRYPOINT ["python", "/app/app.py"]

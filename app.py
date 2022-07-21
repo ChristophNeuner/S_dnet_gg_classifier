@@ -83,7 +83,7 @@ def main(argv):
         # predictions
         ##
         print('predictions')
-        exported_learner_path = Path('./dnet_vs_gg_resnet-1-resnet50.pkl')
+        exported_learner_path = Path('./dnet_vs_gg_resnet-1-resnet50_untrained.pkl')
         learner = load_learner(fname=exported_learner_path)
         
         for ts in tqdm(tilesummaries):  

@@ -75,6 +75,7 @@ RUN pip install scikit-image
 RUN git clone https://github.com/FAU-DLM/wsi_processing_pipeline.git
 
 RUN mkdir -p /app
+ADD descriptor.json /app/descriptor.json
 ADD app.py /app/app.py
 ADD dnet_vs_gg_resnet-1-resnet50_untrained.pkl /app/dnet_vs_gg_resnet-1-resnet50_untrained.pkl
 

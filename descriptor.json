@@ -15,7 +15,7 @@
             "set-by-server": true,
             "optional": false,
             "type": "String",
-            "value-key": "[@ID]",
+            "value-key": "@ID",
             "command-line-flag": "--@id"
         },
         {
@@ -24,7 +24,7 @@
             "set-by-server": true,
             "optional": false,
             "type": "String",
-            "value-key": "[@ID]",
+            "value-key": "@ID",
             "command-line-flag": "--@id"
         },
         {
@@ -33,7 +33,7 @@
             "set-by-server": true,
             "optional": false,
             "type": "String",
-            "value-key": "[@ID]",
+            "value-key": "@ID",
             "command-line-flag": "--@id"
         },
         {
@@ -42,7 +42,7 @@
             "set-by-server": true,
             "optional": false,
             "type": "Number",
-            "value-key": "[@ID]",
+            "value-key": "@ID",
             "command-line-flag": "--@id"
         },
         {
@@ -51,7 +51,7 @@
             "set-by-server": true,
             "optional": false,
             "type": "Number",
-            "value-key": "[@ID]",
+            "value-key": "@ID",
             "command-line-flag": "--@id"
         }
     ]
